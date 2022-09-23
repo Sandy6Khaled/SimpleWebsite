@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightblue;
+}
+h1{
+    color:peru;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+h2{
+    color: coral;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+img{
+    width: auto;
+    height: 600px;
+}
+.header{
+    width: 1140px;
+    margin: 20px auto 10px auto;
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background-image: url(img7.jpg);
+    background-size: cover; /* it means it is not repeated*/
+}
+.container{
+    width: 1140px;
+    margin: 20px auto 10px auto;
+    position: relative;
+}
+.article{
+    width: 75%;
+    display: inline-block;
+    float: left;
+    padding-right: 30px;
+}
+.para{
+    text-align: justify;
+    margin: 20px 0;
+}
+.blockpost{
+    margin-bottom: 50px;
+}
+.otherposts{
+    width: 25%;
+    padding-left: 40px;
+    display: inline-block;
+}
+.otherposts img{
+    width: 80%;
+    height: 200px;
+}
+.othertitle{
+    font-size: 16px;
+    color:darkslategray;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+#footer-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;/*it mean that it is completely circle*/
+    float: left;
+}
+#footer-heading{
+    border-top: 1px solid gray;
+    font-family: fantasy;
+    line-height: 1.5;
+    font-weight: 100px;
+    text-align: left;
+}
+.footer p {
+    width: 60%;
+    margin-left: 20px;
+    text-align: justify;
+    display: inline-block;
+}
+.social-link{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+.socialmedia{
+    position: fixed;
+    top: 10px;
+    right: 2px;
+}
